@@ -28,7 +28,7 @@ html::-webkit-scrollbar-track {
 }
 
 html::-webkit-scrollbar-thumb {
-  background: #2597f4;
+  background: #000;
   border-radius: 5rem;
 }
 
@@ -41,28 +41,29 @@ section {
   margin-bottom: 3rem;
   font-size: 4rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
 }
 
 .heading span {
-  color: #2597f4;
+  color: #0000ff;
 }
 
 .btn {
   display: inline-block;
   margin-top: 1rem;
   padding: 1rem 3rem;
+  border-radius: 8px;
   cursor: pointer;
   background: #fff;
-  font-size: 1.7rem;
+  font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
-  border: 0.2rem solid #334;
+  color: #000;
+  border: 0.2rem solid #000;
 }
 
 .btn:hover {
-  background: #2597f4;
-  border-color: #2597f4;
+  background: #000;
+  border-color: #fff;
   color: #fff;
 }
 
@@ -77,7 +78,7 @@ section {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #2597f4;
+  background: #0000ff;
 }
 
 .header .contact-info p {
@@ -102,7 +103,7 @@ section {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background: #fff;
-  border-bottom: 0.2rem solid #334;
+  border-bottom: 0.2rem solid #000;
   position: relative;
   z-index: 1000;
 }
@@ -120,30 +121,31 @@ section {
 .header .navbar .logo {
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: #334;
+  color: #0000ff;
   font-weight: bolder;
 }
 
 .header .navbar .logo i {
-  color: #2597f4;
+  color: #0000ff;
 }
 
 .header .navbar .links a {
   margin-left: 2rem;
-  font-size: 2rem;
+  font-size: 20px;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
+  font-weight: 900;
 }
 
 .header .navbar .links a:hover {
-  text-decoration: underline;
-  color: #2597f4;
+  border-left: 10px solid#000;
+color: #000;
 }
 
 .header #menu-btn {
   font-size: 3rem;
   cursor: pointer;
-  color: #334;
+  color: #000;
   display: none;
 }
 
@@ -178,13 +180,13 @@ section {
 .home .content h3 {
   font-size: 4.5rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
 }
 
 .home .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: #000;
   padding: 1rem 0;
 }
 
@@ -215,13 +217,13 @@ section {
 .fun-fact .box h3 {
   font-size: 4rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
 }
 
 .fun-fact .box p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: #000;
   padding-top: .5rem;
 }
 
@@ -256,14 +258,14 @@ section {
 .about .content h3 {
   font-size: 3rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
   padding-bottom: .5rem;
 }
 
 .about .content p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: #000;
   padding: 1rem 0;
 }
 
@@ -282,14 +284,14 @@ section {
 .services .box-container .box {
   text-align: center;
   background: #fff;
-  border: 0.2rem solid #334;
+  border: 0.2rem solid #000;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   padding: 3rem 2rem;
 }
 
 .services .box-container .box:hover {
-  background: #334;
+  background: #000;
 }
 
 .services .box-container .box:hover h3 {
@@ -308,14 +310,14 @@ section {
 .services .box-container .box h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
   padding: 1rem 0;
 }
 
 .services .box-container .box p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: #000;
 }
 
 .gallery .gallery-container {
@@ -359,13 +361,13 @@ section {
   background: #fff;
   padding: 3rem;
   text-align: center;
-  border: 0.2rem solid #334;
+  border: 0.2rem solid #000;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .facilities .box-container .box:hover {
-  background: #334;
+  background: #000;
 }
 
 .facilities .box-container .box:hover h3 {
@@ -385,13 +387,13 @@ section {
   padding: 1rem 0;
   font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
 }
 
 .facilities .box-container .box p {
   font-size: 1.4rem;
   line-height: 2;
-  color: #777;
+  color: #000;
 }
 
 .team .box-container {
@@ -426,13 +428,13 @@ section {
 .team .box-container .box .content h3 {
   font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
 }
 
 .team .box-container .box .content p {
   font-size: 1.4rem;
   line-height: 2;
-  color: #777;
+  color: #000;
   padding: .5rem 0;
 }
 
@@ -446,12 +448,12 @@ section {
   line-height: 4.5rem;
   font-size: 1.7rem;
   margin: 0 .3rem;
-  background: #334;
+  background: #000;
   color: #fff;
 }
 
 .team .box-container .box .content .share a:hover {
-  background: #2597f4;
+  background: #0000ff;
 }
 
 .reviews {
@@ -472,11 +474,11 @@ section {
   background: #fff;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  border: 0.2rem solid #334;
+  border: 0.2rem solid #000;
 }
 
 .reviews .box-container .box:hover {
-  background: #334;
+  background: #000;
 }
 
 .reviews .box-container .box:hover .text p {
@@ -488,7 +490,7 @@ section {
 }
 
 .reviews .box-container .box .star i {
-  color: #2597f4;
+  color: #0000ff;
   font-size: 1.7rem;
 }
 
@@ -507,13 +509,13 @@ section {
           transform: translate(-50%, -50%);
   z-index: -1;
   opacity: .3;
-  color: #2597f4;
+  color: #0000ff;
 }
 
 .reviews .box-container .box .text p {
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: #000;
 }
 
 .reviews .box-container .box .user img {
@@ -526,7 +528,7 @@ section {
 .reviews .box-container .box .user h3 {
   font-size: 1.7rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
 }
 
 .contact .row {
@@ -550,13 +552,13 @@ section {
       -ms-flex: 1 1 42rem;
           flex: 1 1 42rem;
   padding: 2rem;
-  border: 0.2rem solid #334;
+  border: 0.2rem solid #000;
 }
 
 .contact .row form h3 {
   font-size: 2.5rem;
   text-transform: capitalize;
-  color: #334;
+  color: #000;
   padding-bottom: 1rem;
 }
 
@@ -578,13 +580,13 @@ section {
 .contact .row form .inputBox input, .contact .row form textarea {
   padding: 1.2rem 1.4rem;
   font-size: 1.6rem;
-  color: #777;
+  color: #000;
   margin: .7rem 0;
-  border: 0.2rem solid #334;
+  border: 0.2rem solid #000;
 }
 
 .contact .row form .inputBox input:focus, .contact .row form textarea:focus {
-  background: #334;
+  background: #000;
   color: #fff;
 }
 
@@ -611,7 +613,7 @@ section {
 }
 
 .footer {
-  background: #f5f5f5;
+  background: #1f1f1f;
 }
 
 .footer .box-container {
@@ -625,7 +627,7 @@ section {
 .footer .box-container .box h3 {
   font-size: 2.2rem;
   text-transform: capitalize;
-  color: #334;
+  color: #fff;
   padding: 1rem 0;
 }
 
@@ -634,16 +636,16 @@ section {
   padding: .5rem 0;
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: #fff;
 }
 
 .footer .box-container .box .link i {
   padding-right: .5rem;
-  color: #2597f4;
+  color: #fff;
 }
 
 .footer .box-container .box .link:hover {
-  color: #2597f4;
+  color: #fff;
 }
 
 .footer .box-container .box .link:hover i {
@@ -654,19 +656,20 @@ section {
   padding: .5rem 0;
   font-size: 1.5rem;
   line-height: 2;
-  color: #777;
+  color: #fff;
 }
 
 .footer .box-container .box p span {
-  color: #2597f4;
+  color: #fff;
 }
 
 .footer .box-container .box .email {
   width: 100%;
-  border: 0.2rem solid #334;
+  border: 1px solid #000;
+  border-radius: 8px;
   padding: 1.6rem 1.4rem;
-  font-size: 1.6rem;
-  color: #777;
+  font-size: 2rem;
+  color: #000;
   margin: 1rem 0;
 }
 
@@ -678,29 +681,31 @@ section {
   height: 4.5rem;
   width: 4.5rem;
   line-height: 4.5rem;
-  font-size: 1.7rem;
-  background: #334;
-  color: #fff;
+  font-size: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  color: #161414;
   margin-right: .3rem;
   text-align: center;
 }
 
 .footer .box-container .box .share a:hover {
-  background: #2597f4;
+  background: #000;
+  color: #fff;
 }
 
 .footer .credit {
   font-size: 2rem;
   text-transform: capitalize;
-  color: #334;
+  color: #fff;
   margin-top: 3rem;
   padding-top: 3rem;
-  border-top: 0.2rem solid #334;
+  border-top: 0.2rem solid #fff;
   text-align: center;
 }
 
 .footer .credit span {
-  color: #2597f4;
+  color: #0000ff;
 }
 
 @media (max-width: 1200px) {
@@ -747,8 +752,8 @@ section {
     left: 0;
     right: 0;
     background: #fff;
-    border-top: 0.2rem solid #334;
-    border-bottom: 0.2rem solid #334;
+    border-top: 0.2rem solid #000;
+    border-bottom: 0.2rem solid #000;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
             clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
